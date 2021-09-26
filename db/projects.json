@@ -1,0 +1,38 @@
+{
+    "01":{
+        "id":"project1",
+        "projectName":"Ticket Booking System",
+        "tech":["Express JS","Node JS","MySQL","Bootstrap","EJS Template Engine"],
+        "about":"I have done this project for my university course back in year 2018. This projects help me to kick start my journey to web development",
+        "functionality":["Login","Registration","Simple Validation","Search ticket","Book A Ticket"],
+        "github":"https://github.com/mahbubevan/ticket",
+        "projectQuality":"Begineer!"
+    },
+    "02":{
+        "id":"project2",
+        "projectName":"Soft Tube",
+        "tech":["Laravel","PHP","MySQL","jQuery"],
+        "about":"As I declare myself as an backend developer, I focused only BACKEND part in this project. This project shows my weakness at frontend. Really I am not yet good at Frontend. Desiging is not my things.",
+        "functionality":["Login","Registration","User Validation","Admin Panel","Admin set some packages","User Panel","User Can Buy Package","Limitation of uploading videos are as their package policies.","Videos can be liked, disliked, comments and subscription of channels by other users.","No Good Frontend !!!"],
+        "github":"https://github.com/mahbubevan/softTube",
+        "projectQuality":"Junior Developer!"
+    },
+    "03":{
+        "id":"project3",
+        "projectName":"Film Review Site",
+        "tech":["Laravel","React JS","MySQL"],
+        "about":"Thinking in a REACT way. I tried to increase my frontend sector with this project. Develop API's with Laravel and Frontend build with React. My first React project. No professional work. But it was a good start as a frontend developer",
+        "functionality":["Please visit github repo."],
+        "github":"https://github.com/mahbubevan/softTube",
+        "projectQuality":"Begineer!"
+    },
+    "04":{
+        "id":"project4",
+        "projectName":"Uptime Monitoring API",
+        "tech":["Node JS","React JS","File System"],
+        "about":"Now focusing into a Single Tech Stack - JavaScript.This project's backend is by Raw Node JS. While learning Node JS with <a className='text-white fs-5' href='https://www.youtube.com/watch?v=WC-g0JtEIwM&list=PLHiZ4m8vCp9PHnOIT7gd30PCBoYCpGoQM' target='_blank'> Sumit Saha </a> the backend is inspired from his tutorial. Some additional features is done by myself.",
+        "functionality":["User CRUD","Token CRUD","Check Link CRUD","Token Based Authentication"],
+        "github":"https://github.com/mahbubevan/Uptime-monitoring-API",
+        "projectQuality":"Begineer!"
+    }
+}

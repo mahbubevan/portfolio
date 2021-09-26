@@ -9,7 +9,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-7">
             <Image 
-                src='/image/profile.jpeg'
+                src='/image/profile.jpg'
                 height={600}
                 width={600}
                 alt='Profile Picture'
