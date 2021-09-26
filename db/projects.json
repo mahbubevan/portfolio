@@ -1,13 +1,13 @@
 {
-    "01":{
-        "id":"project1",
+    "01":
+        {"id":"project1",
         "projectName":"Ticket Booking System",
         "tech":["Express JS","Node JS","MySQL","Bootstrap","EJS Template Engine"],
         "about":"I have done this project for my university course back in year 2018. This projects help me to kick start my journey to web development",
         "functionality":["Login","Registration","Simple Validation","Search ticket","Book A Ticket"],
         "github":"https://github.com/mahbubevan/ticket",
-        "projectQuality":"Begineer!"
-    },
+        "projectQuality":"Begineer!"}
+    ,
     "02":{
         "id":"project2",
         "projectName":"Soft Tube",
