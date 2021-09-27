@@ -30,17 +30,17 @@ export async function getStaticProps({params})
           <div className='container'>
             <div className="row">
                 <div className="col-md-12">
-                    <div class="card">
-                        <div class="card-header">
+                    <div className="card">
+                        <div className="card-header">
                             Quality - {data.projectQuality}
                         </div>
-                        <div class="card-body">
-                            <span class="card-title display-3">{data.projectName}</span>
-                            <p class="card-text">
+                        <div className="card-body">
+                            <span className="card-title display-3">{data.projectName}</span>
+                            <p className="card-text">
                                 <span className="h4 d-block">About this project</span>
                                 {data.about}
                             </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" className="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
                 </div>
