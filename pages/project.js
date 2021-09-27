@@ -2,6 +2,10 @@ import Layout from '../component/layout'
 import Image from 'next/image'
 import utilStyle from '../styles/utils.module.css'
 import { projectLists } from '../lib/project'
+import { shortDetails } from '../lib/helper'
+import Link from 'next/link'
+
+
 
 
 export async function getStaticProps()
@@ -15,7 +19,6 @@ export async function getStaticProps()
 }
 
 export default function Home({lists}) {
-  console.log(lists);
   return (
     <Layout>
         <div className='container'>
@@ -23,17 +26,32 @@ export default function Home({lists}) {
           {
             lists.fileObject.map((val,id)=>{
               return (
-                <div className="col-md-4">
-                    <div key={id} className={`card ${utilStyle.cardWidth} bg-dark text-white shadow-lg p-3 mb-5  rounded`}>
+                <div className="col-md-4" key={id}>
+                    <div className={`card ${utilStyle.cardWidth} bg-dark text-white shadow-lg p-3 mb-5  rounded`}>
                     {/* <Image 
 
                     /> */}
                     <div className="card-body">
                       <h5 className="card-title">{val[1].projectName}</h5>
                       <p className="card-text">
-                      {val[1].about}
+                      {shortDetails(val[1].about,135)}
                       </p>
-                      <a href="#" className="btn btn-primary">Project Link</a>
+                      <div className="d-flex justify-content-between">
+                        <Link href={val[0]}>
+                          <a href="#" className="btn btn-light">
+                            <span className="me-2">
+                            <i className="las la-info-circle"></i>
+                            </span>
+                            Details
+                          </a>
+                        </Link>
+                        <a href={val[1].github} className="btn btn-light">
+                          <span className="me-2">
+                            <i className="lab la-github"></i>
+                          </span>
+                          Github
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
