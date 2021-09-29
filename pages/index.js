@@ -47,8 +47,8 @@ export default function Home() {
                 <li className="list-group-item">
                   <div className="row p-1">
                     <div className="col-md-12">
-                      <div class="progress">
-                        <div class="progress-bar bg-info w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                      <div className="progress">
+                        <div className="progress-bar bg-info w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                       </div>
                     </div>
                     <div className="col-md-12">

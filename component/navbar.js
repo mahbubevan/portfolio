@@ -20,7 +20,9 @@ export default function Navbar(){
           </ActiveLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
+          <ActiveLink prop='/contact'>
+              Contact
+          </ActiveLink>
         </li>        
       </ul>
     </div>

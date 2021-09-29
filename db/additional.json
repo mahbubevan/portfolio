@@ -1,0 +1,26 @@
+{
+    "01":{
+        "id":"project1",
+        "projectName":"Local Bitcoins",
+        "tech":["PHP","Laravel","Bootstrap 5","jQuery"],
+        "about":"I have done this project while working as a JR. Software Developer in a Software Company. User Can deposit bitcoin and transaction between p2p user and can withdraw. Transaction is secured by ESCROW method. A full featured backend software was developed by me with Laravel. Frontend design was provided by the frontend team.",                
+        "projectQuality":"Professional!",
+        "thumbnail":""
+    },
+    "02":{
+        "id":"project2",
+        "projectName":"Multi Vendor Hotel Booking",
+        "tech":["PHP","Laravel","Bootstrap 5","jQuery"],
+        "about":"I have done this project while working as a JR. Software Developer in a Software Company. A full featured backend software was developed by me with Laravel. Frontend design was provided by the frontend team.",                
+        "projectQuality":"Professional!",
+        "thumbnail":""
+    },
+    "03":{
+        "id":"project3",
+        "projectName":"Internet Service Provider",
+        "tech":["PHP","Laravel","Bootstrap 5","jQuery"],
+        "about":"I have done this project while working as a JR. Software Developer in a Software Company. A full featured backend software was developed by me with Laravel. Frontend design was provided by the frontend team. Control mikrotik user functionalities with the web applicaition.",                
+        "projectQuality":"Professional!",
+        "thumbnail":""
+    }
+}
