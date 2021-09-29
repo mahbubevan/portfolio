@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import { getSiteSetting } from '../lib/site'
 import ActiveLink from './activeLink'
 
 export default function Navbar(){

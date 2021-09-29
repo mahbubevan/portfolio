@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../component/navbar'
+import Footer from './footer'
 import { getSiteSetting } from '../lib/site'
 
 export default function Layout({children}){
@@ -11,7 +12,7 @@ export default function Layout({children}){
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
+      <main>
         <Navbar />
         <hr/>
         <div className="container jumbotron mx-auto mt-5 shadow-lg p-3 rounded">          
@@ -19,6 +20,7 @@ export default function Layout({children}){
             {children}
           </div>
         </div>
+        <Footer />
       </main>
     </div>
     )
